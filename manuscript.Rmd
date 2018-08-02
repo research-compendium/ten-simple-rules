@@ -10,7 +10,7 @@ title: "Ten simple rules for publishing a research compendium"
 - add a single entry point for the computations (Makefile, main.sh, run.R, but ideally a literate programming file)
 - write instructions for different levels ("explain to me like I'm five")
 - get a colleague to review it (fallback: follow your own instructions on a different computer/VM, ..)
-- describe computational environment (fallback: text, better: executable instructions like Dockerfile, Vagrantfile
+- describe computational environment (fallback: text, better: executable instructions like Dockerfile, Vagrantfile, make easily explorable - Binder)
 - export snapshot of computational environment
 - publish the whole compendium in a repository (own discretion, do not blindingly publish parts independently, concrete software version and used data only, do not embed software and data paper)
 - tag the compendium (and see if it is disoverable via https://research-compendium.science)
