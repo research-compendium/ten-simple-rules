@@ -1,0 +1,17 @@
+---
+title: "Ten simple rules for publishing a research compendium"
+---
+
+[Inspiration](https://scholar.google.de/scholar?q=ten%20simple%20rules%20for)
+
+- add all data and code created by you
+- follow language guidelines for packaging (ref "R and friends" paper)
+- understand copyright and licensing for data, code, and text (ref Stodden paper)
+- add a single entry point for the computations (Makefile, main.sh, run.R, but ideally a literate programming file)
+- write instructions for different levels ("explain to me like I'm five")
+- get a colleague to review it (fallback: follow your own instructions on a different computer/VM, ..)
+- describe computational environment (fallback: text, better: executable instructions like Dockerfile, Vagrantfile
+- export snapshot of computational environment
+- publish the whole compendium in a repository (own discretion, do not blindingly publish parts independently, concrete software version and used data only, do not embed software and data paper)
+- tag the compendium (and see if it is disoverable via https://research-compendium.science)
+- curate meaningful links and metadata (cf. zenodo metadata)
