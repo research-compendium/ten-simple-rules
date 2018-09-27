@@ -2,11 +2,11 @@
 title: "Ten simple rules for publishing a research compendium"
 ---
 
-[Inspiration](https://scholar.google.de/scholar?q=ten%20simple%20rules%20for)
-
 - add all data and code created by you
+- properly reference data and code created by others (use DOIs as much as possible)
 - follow language guidelines for packaging (ref "R and friends" paper)
-- understand copyright and licensing for data, code, and text (ref Stodden paper, contributors guide)
+- understand copyright and licensing for data, code, and text (ref Stodden paper, contributors guide), choose wisely for your own data, make sure not to break licenses of used data and code
+- explain the basics of the compendium in a specific section in your article
 - add a single entry point for the computations (Makefile, main.sh, run.R, but ideally a literate programming file)
 - write instructions for different levels ("explain to me like I'm five", but also document for yourself)
 - get a colleague to review it (fallback: follow your own instructions on a different computer/VM, ..)
@@ -19,3 +19,8 @@ title: "Ten simple rules for publishing a research compendium"
 - spread the word and be open
   - talk to three other people about how they could create a resarch compendium for a specific piece of research of theirs (snowball effect!)
   - contributors guide
+
+
+## Acknowledgements
+
+...
